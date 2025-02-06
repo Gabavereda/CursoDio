@@ -1,5 +1,10 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        SmartTv smartTv = new SmartTv();
+
+        System.out.println("canal? " + smartTv.canal);
+        System.out.println("volume? " + smartTv.volume);
+        System.out.println("ligada? " + smartTv.ligada);
+
     }
 }
