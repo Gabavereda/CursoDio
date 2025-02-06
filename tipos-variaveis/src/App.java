@@ -11,6 +11,5 @@ public class App {
         // usando final sempre a variavel tem que ser maiuscula
 
         final double VALOR_PI = 3.14;
-        
     }
 }
