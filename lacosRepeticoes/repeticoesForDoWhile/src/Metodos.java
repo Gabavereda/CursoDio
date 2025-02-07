@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Metodos {
@@ -54,6 +55,24 @@ public class Metodos {
 
         System.out.println("Mesada: " + mesada);
         System.out.println("fim da grana");
+
+    }
+
+    public void telefoneToca() {
+        System.out.println("Discando");
+        do {
+            System.out.println("Telefone tocando");
+
+        } while (tocando());
+        System.out.println("alo! ");
+
+    }
+
+    private static boolean tocando() {
+        boolean atendeu = new Random().nextInt(3) == 1;
+        System.out.println("Atendeu ? " + atendeu);
+
+        return !atendeu;
 
     }
 

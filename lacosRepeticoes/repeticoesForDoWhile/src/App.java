@@ -6,6 +6,8 @@ public class App {
         // metodos.forParaCarneiros();
         // metodos.arrayExercicio();
         // metodos.forEachExercicio();
-        metodos.forWithBreakOrContinue();
+        // metodos.forWithBreakOrContinue();
+        // metodos.whileExercise();
+        metodos.telefoneToca();
     }
 }
