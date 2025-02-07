@@ -1,3 +1,5 @@
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Metodos {
     String alunos[] = { "Felipe", "Claudio", "Gomes" };
 
@@ -38,4 +40,24 @@ public class Metodos {
         }
     }
 
+    public void whileExercise() {
+
+        double mesada = 50;
+
+        while (mesada > 0) {
+            Double valorDoce = valorAleatorio();
+            if (valorDoce > mesada)
+                valorDoce = mesada;
+            System.out.println("doce valor " + valorDoce + "adiconado ao carrinho");
+            mesada = mesada - valorDoce;
+        }
+
+        System.out.println("Mesada: " + mesada);
+        System.out.println("fim da grana");
+
+    }
+
+    private static double valorAleatorio() {
+        return ThreadLocalRandom.current().nextDouble(2, 8);
+    }
 }
