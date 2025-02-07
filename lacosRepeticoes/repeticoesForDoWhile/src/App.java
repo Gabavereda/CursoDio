@@ -3,6 +3,9 @@ public class App {
 
         Metodos metodos = new Metodos();
 
-        metodos.forParaCarneiros();
+        // metodos.forParaCarneiros();
+        // metodos.arrayExercicio();
+        // metodos.forEachExercicio();
+        metodos.forWithBreakOrContinue();
     }
 }
