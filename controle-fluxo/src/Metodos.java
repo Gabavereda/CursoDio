@@ -36,4 +36,26 @@ public class Metodos {
 
         }
     }
+
+    public void caseMedidas(){
+
+        String sigla = "A";
+        switch(sigla = "A"){
+            case "A": 
+            System.out.println("escolheu a");
+
+            break;
+
+            case "B":
+            System.out.println("escolheu b");
+            break;
+
+            default:
+            System.out.println("escolheu nenhuma");
+
+
+        }
+
+
+
 }
