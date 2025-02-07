@@ -5,6 +5,9 @@ public class Metodos {
         if (nota >= 7) {
             System.out.println("aprovado");
 
+        } else if (nota >= 5 && nota < 7) {
+            System.out.println("Imprime recuperação");
+
         } else {
             System.out.println("reprovado");
 
@@ -13,7 +16,7 @@ public class Metodos {
     }
 
     public void caixa() {
-    
+
         double saldo = 25.0;
         double valorSolicitado = 17.0;
 
