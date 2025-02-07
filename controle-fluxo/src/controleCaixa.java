@@ -1,4 +1,5 @@
-public class controleCaixa {
+public class ControleCaixa {
+
     public static void main(String[] args) throws Exception {
         double saldo = 25.0;
         double valorSolicitado = 17.0;
@@ -10,6 +11,10 @@ public class controleCaixa {
         } else {
 
         }
+
+        Metodos metodos = new Metodos();
+
+        metodos.boletim();
 
     }
 }
