@@ -8,6 +8,6 @@ public class App {
         // metodos.forEachExercicio();
         // metodos.forWithBreakOrContinue();
         // metodos.whileExercise();
-        metodos.telefoneToca();
+        // metodos.telefoneToca();
     }
 }
