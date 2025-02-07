@@ -6,6 +6,7 @@ public class ControleCaixa {
 
         metodos.caixa();
         metodos.boletim();
+        metodos.boletimTernario();
 
     }
 }
