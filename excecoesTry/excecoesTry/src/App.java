@@ -6,4 +6,4 @@ public class App {
         metodos.cadastrarPessoa();
 
     }
-}
+}   
