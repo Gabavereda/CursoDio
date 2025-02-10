@@ -22,7 +22,7 @@ public class Metodos {
         int candidatoSelecionados = 0;
         int candidatoAtual = 0;
 
-        while (candidatoSelecionados < 2) {
+        while (candidatoSelecionados < 2 && candidatoAtual < candidatos.length) {
             String candidato = candidatos[candidatoAtual];
             double salarioPretendido = valorPretendido();
 
