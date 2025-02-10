@@ -1,5 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Metodos metodos = new Metodos();
+
+        // metodos.selecaoCandidatos();
+        // metodos.imprimirCandidadtos();
+        for (String candidato : metodos.getCandidatos()) {
+            metodos.entrandoEmContato(candidato);
+
+        }
     }
 }
