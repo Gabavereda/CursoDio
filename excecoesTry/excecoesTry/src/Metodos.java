@@ -6,6 +6,7 @@ public class Metodos {
         String nome;
         String cpf;
         String telefone;
+        double altura;
 
         Scanner entrada = new Scanner(System.in);
 
@@ -20,6 +21,10 @@ public class Metodos {
         System.out.println("Seu telefone ");
 
         telefone = entrada.nextLine();
+
+        System.out.println("e por fim sua altura ");
+
+        altura = entrada.nextDouble();
 
     }
 
