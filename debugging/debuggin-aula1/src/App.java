@@ -5,7 +5,7 @@ public class App {
 
         double media = metodos.calculoMedia(metodos.alunos, metodos.entrada);
 
-        System.out.printf("Média da turma %d", media);
+        System.out.printf("Média da turma %.1f", media);
 
     }
 }
