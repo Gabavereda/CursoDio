@@ -5,7 +5,7 @@ public class Metodos {
 
     public void cadastrarPessoa() {
         String nome;
-        String cpf;
+        int cpf;
         String telefone;
         double altura;
 
@@ -18,7 +18,7 @@ public class Metodos {
 
             System.out.println("Seu cpf");
 
-            cpf = entrada.nextLine();
+            cpf = entrada.nextInt();
 
             System.out.println("Seu telefone ");
 
@@ -27,6 +27,8 @@ public class Metodos {
             System.out.println("e por fim sua altura ");
 
             altura = entrada.nextDouble();
+
+            entrada.close();
         } catch (InputMismatchException e) {
             System.out.println("Os dados foram errados");
 
