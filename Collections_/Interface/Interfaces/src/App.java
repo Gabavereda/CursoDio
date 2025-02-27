@@ -19,27 +19,36 @@ public class App {
 
         // conjuntoConvidados.removerConvidadoPorCodigo(1234);
 
-        AgendaContatos agendaContatos = new AgendaContatos();
+        // AgendaContatos agendaContatos = new AgendaContatos();
 
-        agendaContatos.exibirContatos();
+        // agendaContatos.exibirContatos();
 
-        agendaContatos.adicionarContato("gaba", 1);
-        agendaContatos.adicionarContato("gaba vereda", 2);
-        agendaContatos.adicionarContato("verda", 3);
-        agendaContatos.adicionarContato("dada", 4);
-        agendaContatos.adicionarContato("cc", 5);
+        // agendaContatos.adicionarContato("gaba", 1);
+        // agendaContatos.adicionarContato("gaba vereda", 2);
+        // agendaContatos.adicionarContato("verda", 3);
+        // agendaContatos.adicionarContato("dada", 4);
+        // agendaContatos.adicionarContato("cc", 5);
 
-        agendaContatos.exibirContatos();
+        // agendaContatos.exibirContatos();
 
-        System.out.println(agendaContatos.pesquisaPorNome("gaba"));
-        System.out.println(agendaContatos.pesquisaPorNomefINAL("vereda"));
+        // System.out.println(agendaContatos.pesquisaPorNome("gaba"));
+        // System.out.println(agendaContatos.pesquisaPorNomefINAL("vereda"));
 
-        agendaContatos.atualizarNumeroContato("gaba", 500);
+        // agendaContatos.atualizarNumeroContato("gaba", 500);
 
-        agendaContatos.exibirContatos();
+        // agendaContatos.exibirContatos();
 
-        System.out.println(agendaContatos.pesquisaPorNome("gaba"));
-        System.out.println(agendaContatos.pesquisaPorNomefINAL("vereda"));
+        // System.out.println(agendaContatos.pesquisaPorNome("gaba"));
+        // System.out.println(agendaContatos.pesquisaPorNomefINAL("vereda"));
+
+        CadastroProduto cadastroProduto = new CadastroProduto();
+
+        cadastroProduto.adicionarProduto(1, "arroz", 15.50, 50);
+        cadastroProduto.adicionarProduto(2, "feijao", 20.50, 50);
+        cadastroProduto.adicionarProduto(3, "bata", 60.50, 50);
+        cadastroProduto.adicionarProduto(4, "carne", 50.50, 50);
+
+        System.out.println(cadastroProduto.exibirPorPreco());
 
     }
 }
