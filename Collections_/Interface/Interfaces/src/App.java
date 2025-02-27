@@ -5,7 +5,8 @@ public class App {
 
         // ConjuntoConvidados conjuntoConvidados = new ConjuntoConvidados();
 
-        // System.out.println("Existem " + conjuntoConvidados.contarConvidado() + " dentro de convidados");
+        // System.out.println("Existem " + conjuntoConvidados.contarConvidado() + "
+        // dentro de convidados");
 
         // conjuntoConvidados.adicionarConvidado("Pedro", 1234);
         // conjuntoConvidados.adicionarConvidado("ALD", 1335);
@@ -13,9 +14,12 @@ public class App {
         // // nao sera adicionado devido duplicidade
         // conjuntoConvidados.adicionarConvidado("aALE", 1335);
 
-        // System.out.println("Existem " + conjuntoConvidados.contarConvidado() + " dentro de convidados");
+        // System.out.println("Existem " + conjuntoConvidados.contarConvidado() + "
+        // dentro de convidados");
 
         // conjuntoConvidados.removerConvidadoPorCodigo(1234);
+
+        
 
     }
 }
