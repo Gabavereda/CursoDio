@@ -15,7 +15,7 @@ public class Produto implements Comparable<Produto> {
 
     @Override
     public int compareTo(Produto p) {
-        // TODO Auto-generated method stub
+       
         return nome.compareToIgnoreCase(p.getNome());
     }
 
