@@ -8,12 +8,15 @@ public class App {
         ServicesConsumer servicesConsumer = new ServicesConsumer();
         ServiceSupplier serviceSupplier = new ServiceSupplier();
         ServicesFunction servicesFunction = new ServicesFunction();
+        ServicesPredicate servicesPredicate = new ServicesPredicate();
 
         servicesConsumer.adicionarProduto();
 
-        serviceSupplier.suplierParaNomeProduto();
+        servicesPredicate.pegandoTamanhoTexto(servicesConsumer.listaProduto);
 
-        servicesFunction.dobrarNumeros();
+        // serviceSupplier.suplierParaNomeProduto();
+
+        // servicesFunction.dobrarNumeros();
 
         // servicesConsumer.adicionarProduto();
 

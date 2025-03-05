@@ -38,7 +38,9 @@ public class ServicesConsumer {
         } while (opc == 0);
         for (Produto p : listaProduto) {
             // le
+
             System.out.println(p);
+
         }
     }
 
