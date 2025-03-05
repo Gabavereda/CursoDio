@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        CadastrarConta cadastrarConta = new CadastrarConta();
+        OperacoesConta operacoesConta = new OperacoesConta();
         Scanner entrada = new Scanner(System.in);
         int opc;
 
@@ -20,22 +20,22 @@ public class App {
 
             switch (opc) {
                 case 1:
-                    cadastrarConta.cadastrarCliente();
+                    operacoesConta.cadastrarCliente();
                     break;
                 case 2:
-                    cadastrarConta.listaClientes();
+                    operacoesConta.listaClientes();
                     break;
                 case 3:
-                    cadastrarConta.depositar();
+                    operacoesConta.depositar();
                     break;
                 case 4:
-                    cadastrarConta.sacar();
+                    operacoesConta.sacar();
                     break;
                 case 5:
-                    cadastrarConta.transferir();
+                    operacoesConta.transferir();
                     break;
                 case 6:
-                    cadastrarConta.imprimirExtrato();
+                    operacoesConta.imprimirExtrato();
                     break;
                 case 0:
                     System.out.println("Saindo...");

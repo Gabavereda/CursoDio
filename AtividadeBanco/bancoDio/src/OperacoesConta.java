@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class CadastrarConta {
+public class OperacoesConta {
     private Scanner entrada = new Scanner(System.in);
     private List<Conta> listaContas = new ArrayList<>();
 
