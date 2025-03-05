@@ -12,7 +12,7 @@ public class App {
 
         servicesConsumer.adicionarProduto();
 
-        servicesPredicate.pegandoTamanhoTexto(servicesConsumer.listaProduto);
+        // servicesPredicate.pegandoTamanhoTexto(servicesConsumer.listaProduto);
 
         // serviceSupplier.suplierParaNomeProduto();
 
