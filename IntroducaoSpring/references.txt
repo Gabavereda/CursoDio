@@ -1,0 +1,2 @@
+SpringFramework injections
+SpringBOOt automatic congigurations
