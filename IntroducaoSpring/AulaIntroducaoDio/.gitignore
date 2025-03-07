@@ -34,3 +34,4 @@ build/
 ### Config Files ###
 application.properties
 HELP.md
+IntroducaoSpring/AulaIntroducaoDio/src/main/resources/application.properties
