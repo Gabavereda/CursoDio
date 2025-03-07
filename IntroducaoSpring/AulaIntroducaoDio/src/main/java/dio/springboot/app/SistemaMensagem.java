@@ -1,25 +1,25 @@
-package dio.springboot.app;
+// package dio.springboot.app;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.stereotype.Component;
 
-@Component
-public class SistemaMensagem {
-    @Autowired
-    private Remetente noreply;
-    @Autowired
-    private Remetente techTeam;
+// @Component
+// public class SistemaMensagem {
+//     @Autowired
+//     private Remetente noreply;
+//     @Autowired
+//     private Remetente techTeam;
 
-    public void enviarConfirmacaoCadastro() {
-        System.out.println(noreply);
-        System.out.println("Aprovedd! ");
-    }
+//     public void enviarConfirmacaoCadastro() {
+//         System.out.println(noreply);
+//         System.out.println("Aprovedd! ");
+//     }
 
-    public void enviarMensagemBoasVindas() {
-        techTeam.setEmail("tech@");
+//     public void enviarMensagemBoasVindas() {
+//         techTeam.setEmail("tech@");
 
-        System.out.println(techTeam);
+//         System.out.println(techTeam);
 
-        System.out.println("boas vindas");
-    }
-}
+//         System.out.println("boas vindas");
+//     }
+// }
