@@ -1,29 +1,41 @@
-// package dio.springboot.app;
+package dio.springboot.app;
 
-// public class Remetente {
+import java.util.List;
 
-//     private String nome;
-//     private String email;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
-//     public String getNome() {
-//         return nome;
-//     }
+// pair to applications
+@Configuration
+@ConfigurationProperties(prefix = "remetente") // adiciona um prefixo no caso o que esta estabelecido em appProperties
+public class Remetente {
 
-//     public void setNome(String nome) {
-//         this.nome = nome;
-//     }
+    private String name;
+    private String email;
+    private List<Long> telefones;
 
-//     public String getEmail() {
-//         return email;
-//     }
+    public String getName() {
+        return name;
+    }
 
-//     public void setEmail(String email) {
-//         this.email = email;
-//     }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-//     @Override
-//     public String toString() {
-//         return "Remetente [nome=" + nome + ", email=" + email + "]";
-//     }
+    public String getEmail() {
+        return email;
+    }
 
-// }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public List<Long> getTelefones() {
+        return telefones;
+    }
+
+    public void setTelefones(List<Long> telefones) {
+        this.telefones = telefones;
+    }
+
+}
