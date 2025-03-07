@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class MensagemApplicationProperties implements CommandLineRunner {
 
     // call for applicationProperties
-    @Value("${nome}")
+    @Value("${name}") // ifDontFind @Value("${nome:outroNome}")
     private String name;
     @Value("${email}")
     private String email;
@@ -22,7 +22,7 @@ public class MensagemApplicationProperties implements CommandLineRunner {
         System.out.println(
                 "mensagem enviada " + '\n' +
                         "Nome " + name + '\n' +
-                        "Email " + email +'\n' +
+                        "Email " + email + '\n' +
                         "Telefone " + telefones);
         System.out.println("Aprovedd! ");
     }
