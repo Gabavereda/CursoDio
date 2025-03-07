@@ -1,2 +1,6 @@
 SpringFramework injections
 SpringBOOt automatic congigurations
+
+// BEANS
+Beans Object == cannot acces main code 
+Componnent handling > can do injections
