@@ -23,3 +23,5 @@
 hs_err_pid*
 replay_pid*
 IntroducaoSpring/AulaIntroducaoDio/src/main/resources/application.properties
+IntroducaoSpring/aula-spring-data-jpa/src/main/resources/application.properties
+.gitignore
