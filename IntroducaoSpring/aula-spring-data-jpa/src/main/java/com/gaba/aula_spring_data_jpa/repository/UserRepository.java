@@ -11,13 +11,13 @@ import com.gaba.aula_spring_data_jpa.model.TestesDio;
 public interface UserRepository extends JpaRepository<TestesDio, Integer> {
 
     // Query
-    List<TestesDio> findByNameContainig(String name);
+    List<TestesDio> findByNameContaining(String name);
 
     // Query
-    TestesDio findByUserName(String username);
+    TestesDio findByUsername(String username);
 
     // Query Override
-    @Query("SELECT u testesDio u WHERE u.name LIKE %:name%")
+    @Query("SELECT   u  FROM TestesDio u WHERE u.name LIKE %:name%")
     List<TestesDio> filtrarPorNome(@Param("name") String name);
 
 }

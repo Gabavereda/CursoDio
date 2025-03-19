@@ -1,5 +1,7 @@
 package com.gaba.aula_spring_data_jpa;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,11 +17,21 @@ public class StartApp implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        // TODO Auto-generated method stub
+        List<TestesDio> users = repository.filtrarPorNome("araujo");
+
+        for (TestesDio u : users) {
+            System.out.println(u);
+
+        }
+
+    }
+
+    private void insertUser() {
+
         TestesDio user = new TestesDio();
 
         user.setName("gaba");
-        user.setUsername("gabaVereda");
+        user.setUsername("gaba");
         user.setPassword("dio123");
 
         repository.save(user);
@@ -30,5 +42,4 @@ public class StartApp implements CommandLineRunner {
 
         }
     }
-
 }
