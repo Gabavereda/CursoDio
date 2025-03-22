@@ -6,8 +6,8 @@ public class Usuario {
     private String login;
     private String password;
 
-    public Usuario(Integer id, String login, String password) {
-        this.id = id;
+    public Usuario( String login, String password) {
+        
         this.login = login;
         this.password = password;
     }
